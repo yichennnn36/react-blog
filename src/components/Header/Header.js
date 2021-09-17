@@ -11,7 +11,6 @@ const HeaderContainer = styled.div`
   height: 120px;
   border-bottom: 1px solid ${props => props.theme.color.shadow};
   font-family: ${props => props.theme.font.primary};
-  color: ${props => props.theme.color.primary};
   position: fixed;
   z-index: 3;
   background: white;
@@ -25,7 +24,7 @@ const HeaderContainer = styled.div`
   ${props => props.$status === "backStage" && `background: black; color: white;`}
 
   & div > a {
-    color: ${props => props.$status === "backStage" && `white;`};
+    color: ${props => props.$status === "backStage" ? `white;` : `${props => props.theme.color.primary}`};
   }
   & a:active {
     color: ${props => props.theme.color.primary};
@@ -33,6 +32,7 @@ const HeaderContainer = styled.div`
 `;
 
 const SiteTitle = styled(Link)`
+  color: ${props => props.theme.color.primary};
   font-size: ${props => props.theme.fontSize.fs_4};
   font-weight: 800;
   text-decoration: none;
