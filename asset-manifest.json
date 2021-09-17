@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-blog/static/css/main.37c8ec0d.chunk.css",
+    "main.js": "/react-blog/static/js/main.0c5eb13d.chunk.js",
+    "main.js.map": "/react-blog/static/js/main.0c5eb13d.chunk.js.map",
+    "runtime-main.js": "/react-blog/static/js/runtime-main.21f4e520.js",
+    "runtime-main.js.map": "/react-blog/static/js/runtime-main.21f4e520.js.map",
+    "static/js/2.14edef70.chunk.js": "/react-blog/static/js/2.14edef70.chunk.js",
+    "static/js/2.14edef70.chunk.js.map": "/react-blog/static/js/2.14edef70.chunk.js.map",
+    "index.html": "/react-blog/index.html",
+    "static/css/main.37c8ec0d.chunk.css.map": "/react-blog/static/css/main.37c8ec0d.chunk.css.map",
+    "static/js/2.14edef70.chunk.js.LICENSE.txt": "/react-blog/static/js/2.14edef70.chunk.js.LICENSE.txt",
+    "static/media/close_black.244b6687.svg": "/react-blog/static/media/close_black.244b6687.svg",
+    "static/media/close_white.604f17ae.svg": "/react-blog/static/media/close_white.604f17ae.svg",
+    "static/media/menu_black.9dbc5a3a.svg": "/react-blog/static/media/menu_black.9dbc5a3a.svg",
+    "static/media/menu_white.f8235882.svg": "/react-blog/static/media/menu_white.f8235882.svg",
+    "static/media/rotate_right.7c5727da.svg": "/react-blog/static/media/rotate_right.7c5727da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21f4e520.js",
+    "static/js/2.14edef70.chunk.js",
+    "static/css/main.37c8ec0d.chunk.css",
+    "static/js/main.0c5eb13d.chunk.js"
+  ]
+}
