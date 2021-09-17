@@ -24,7 +24,8 @@ const HeaderContainer = styled.div`
   ${props => props.$status === "backStage" && `background: black; color: white;`}
 
   & div > a {
-    color: ${props => props.$status === "backStage" ? `white;` : `${props => props.theme.color.primary}`};
+    color: ${props => props.theme.color.primary};
+    color: ${props => props.$status === "backStage" && `white;`};
   }
   & a:active {
     color: ${props => props.theme.color.primary};
