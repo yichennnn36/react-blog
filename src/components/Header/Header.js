@@ -90,8 +90,6 @@ const NavLogout = styled.a`
   }
 `;
 
-
-
 const Header = () => {
   const history = useHistory();
   const location = useLocation();

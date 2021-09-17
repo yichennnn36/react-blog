@@ -35,7 +35,7 @@ function App() {
   return (
     <AuthContext.Provider value={{ user, setUser }}>
       <Root>
-        <Router>
+        <Router basename="/thosepplnexto">
           <ScrollToTop />
           {user !== 'fetching' && <Header />}
           <Switch className="content">
