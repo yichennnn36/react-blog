@@ -11,6 +11,7 @@ const HeaderContainer = styled.div`
   height: 120px;
   border-bottom: 1px solid ${props => props.theme.color.shadow};
   font-family: ${props => props.theme.font.primary};
+  color: ${props => props.theme.color.primary};
   position: fixed;
   z-index: 3;
   background: white;
