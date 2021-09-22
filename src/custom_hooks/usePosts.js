@@ -31,9 +31,9 @@ const usePosts = () => {
       setTimeout(() => {
         isLoadingData.current = false;
         setPosts(() => data);
-        setPage(() => ({
+        setPage(page => ({
+          ...page,
           currentPage,
-          diff: 2,
           totalPage
         }));
       }, 500);
